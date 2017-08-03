@@ -1,0 +1,86 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.14rem;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  background: #393A3F;
+  line-height: 0.44rem;
+  padding: 0 0.16rem; }
+  .header i {
+    color: #fff; }
+    .header i:nth-of-type(1) {
+      font-size: 0.15rem; }
+    .header i:nth-of-type(2) {
+      transform: rotate(90deg);
+      font-size: 0.18rem;
+      position: absolute;
+      right: 0.16rem; }
+  .header span {
+    color: #fff;
+    font-size: 0.17rem;
+    position: absolute;
+    left: 0.62rem; }
+
+.section {
+  overflow: auto;
+  flex: 1;
+  background: #818D9B;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section .box {
+    width: 80%;
+    background: #ffffff; }
+    .section .box .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0.35rem; }
+      .section .box .logo img {
+        width: 1.3rem;
+        height: 0.42rem; }
+      .section .box .logo span {
+        font-size: 0.15rem;
+        color: #48494D;
+        padding-top: 0.11rem; }
+    .section .box .login {
+      padding: 0 0.28rem;
+      margin-top: 0.15rem; }
+      .section .box .login p {
+        position: relative;
+        box-sizing: border-box;
+        padding-top: 0.35rem; }
+        .section .box .login p i {
+          position: absolute;
+          font-size: 0.2rem;
+          color: #5AA388;
+          left: 0.15rem;
+          top: 42px; }
+        .section .box .login p input {
+          width: 100%;
+          border: none;
+          outline: none;
+          border-bottom: 1px solid #838987;
+          padding: 0.1rem 0 0.1rem 0.4rem;
+          box-sizing: border-box; }
+          .section .box .login p input::-webkit-input-placeholder {
+            color: #B3B3B3;
+            font-size: 0.1rem; }
+      .section .box .login .btn {
+        margin: 0.42rem 0 0.6rem 0; }
+        .section .box .login .btn input {
+          width: 100%;
+          background: #2FBA77;
+          color: #fff;
+          border: none;
+          outline: none;
+          border-radius: 10px;
+          line-height: 0.38rem;
+          font-size: 0.12rem; }
+
+/*# sourceMappingURL=style.css.map */
